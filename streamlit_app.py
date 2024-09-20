@@ -10,7 +10,7 @@ df = pd.read_csv('data/Bastar Craton.csv')
 
 cat_names = df.columns.tolist()[27:]
 
-el1 = st.selectbox('select element' ,[1, 2, 3])
+el1 = st.selectbox('select element' , cat_names =)
 
 st.write(el1)
 
